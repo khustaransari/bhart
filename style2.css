@@ -1,0 +1,343 @@
+.body,.html{
+    margin:0px;
+    
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.carousel-cell {
+    width:100%;
+}
+.car-img{
+    background-image:
+     url("./assets/jeans.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:500px;
+}
+.up-black{
+background-color: black;
+height:50px;
+color:white;
+z-index:2021;
+}
+.up-black ul li{
+    padding:0px 10px;
+}
+.carousel-cell{
+    width:100%;
+
+}
+
+
+.navbar{
+    background-color:rgb(241, 240, 240,0.5) ;
+   
+}
+.brand-para1{
+   font-size: 25px; 
+   color: #2D3446;
+   text-transform: capitalize;
+   font-style: italic;
+   font-weight: 700;
+   margin-bottom:0px ;
+}
+.brand-para1::first-letter{
+    color: blue;
+    font-size:30px ;
+    text-transform:uppercase;
+    letter-spacing:2px ;
+}
+.cen-hed-div{
+    width:50%;
+    text-align: center;
+}
+.cen-hed-div button{
+
+color:white ;
+padding:5px 10px;
+background-color:rgb(255, 0, 128,0.7) ;
+box-shadow:2px 4px 2px black ;
+border-radius:15px ;
+border:none;
+
+}
+.cen-hed-div h1{
+    padding:10px;
+    background-color: #3D5A80 ;
+    color:white;
+
+}
+
+
+
+.ul-flex{
+    display: flex;
+    padding:0px 40px;
+    justify-content: space-between;
+    align-items: center;
+   
+    width:100%;
+}
+.ul1{
+    padding:0px 20px;
+}
+
+.ul2 li{
+    padding:2px 8px;
+}
+.ul1 a{
+    color:#2D3446;
+    text-decoration: none;
+}
+.tade-h1{
+    color:#2D3446;
+    text-align: center;
+    font-size:30px ;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.trading {
+    margin-top:100px ;
+}
+.tade-h1::first-letter{
+    font-size:40px ;
+    color:rgb(255, 0, 128,0.7);
+    font-weight: 700;
+}
+.gray-pack1,.gray-pack2,.gray-pack3{
+    background:linear-gradient(to right,rgb(219, 219, 219) ,white);
+    margin:5px;
+    height:80vh;
+    position: relative;
+  
+}
+.iwrap{
+    display:flex;
+    flex-direction: column;
+    padding:5px;
+    width:50px;
+   
+    position:absolute;
+    margin-left:20px ;
+    bottom:20px;
+    display:none;
+}
+.iwrap i{
+    margin-bottom:10px ;
+}
+.bottom-pack{
+    background-color: #7D8597 ;
+    display:none;
+    color:white;
+    
+    position: relative;
+    width:100%;
+}
+.bottom-pack {
+    padding:5px 10px;
+    text-align: center;
+}
+.gray-pack1:hover .bottom-pack , .gray-pack2:hover .bottom-pack,.gray-pack3:hover .bottom-pack  {
+    display:block;
+}
+.gray-pack1:hover .iwrap, .gray-pack2:hover .iwrap, .gray-pack3:hover .iwrap{
+    display:block;
+
+}
+.gray-pack1:hover .c-tag,.gray-pack2:hover .c-tag,.gray-pack3:hover .c-tag{
+   
+    display: block;
+}
+.gray-pack1 {
+    background-image: url("./assets/denim1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s-circle1,.s-circle2,
+    .s-circle3,.s-circle4{
+    height:40px;
+    width:40px;
+    border-radius:50% ;
+
+}
+.s-circle1{
+    background-image: url("./assets/denim2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+}
+.s-circle2{
+    background-image: url("./assets/denim2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s-circle3{
+    background-image: url("./assets/denim3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s-circle4{
+    background-image: url("./assets/denim1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c-tag{
+    background-color:rgb(240, 240, 240,0.5);
+   
+    padding:20px;
+
+    top:70%;
+    position: absolute;
+   left:15%;
+   display:none;
+}
+.ctag a{
+    font-size: 25px;
+font-weight: 600;
+color: rgba(14, 20, 53, 0.5);
+cursor: pointer;
+text-decoration: none;
+
+}
+
+.c-tag1{
+    background-color:rgb(240, 240, 240,0.5);
+    color:  rgba(14, 20, 53, 0.5);
+    padding:20px;
+font-size: 25px;
+font-weight: 600;
+display:none;
+    top:70%;
+    position: absolute;
+   right:15%;
+}
+
+
+.manufacturing{
+    margin-top:100px ;
+
+}
+.fivdiv{
+    position:absolute;
+   
+   left:50%;
+   margin-left: -280px;
+   padding:2px;
+   background: linear-gradient(to right,rgb(219, 219, 219) ,white);
+   
+   margin-top:320px; 
+   z-index:100;
+  
+    border:2px solid rgb(255, 0, 128,0.7);
+    height:600px;
+    width:600px;
+   
+  
+}
+.imgwrapper5{
+   
+    margin:5px;
+    height:100%;
+    position:relative;
+    background-image: url("./assets/formal\ pants.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+
+}
+.black-bordr{
+    padding:10px ;
+    border:10px solid rgb(155, 155, 155,0.5);
+    height:100%;
+}
+.imgwrapper1,.imgwrapper2,.imgwrapper3,.imgwrapper4{
+    margin:10px;
+    background: linear-gradient(to right,rgb(219, 219, 219) ,white);
+    height:600px;
+    z-index:50px;
+}
+.imgwrapper1:hover .c-tag,.imgwrapper3:hover .c-tag,.imgwrapper2:hover .c-tag1,.imgwrapper4:hover .c-tag1 ,
+.imgwrapper5:hover .c-tag{
+    display:block;
+}
+
+.imgwrapper1{
+    background-image: url("./assets/kurta\ pajama.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgwrapper2{
+    background-image: url("./assets/kurta\ pajama2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgwrapper3{
+    background-image: url("./assets/narrow\ jacket.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgwrapper4{
+    background-image: url("./assets/boys-shirt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+@media only screen and (max-width:768px){
+    .ul-flex{
+        flex-direction: column;
+    }
+    .fivdiv{
+        position:relative;
+        left:0%;
+        margin:10px 25px ;
+        padding:2px;
+        background:linear-gradient(to right,rgb(219, 219, 219) ,white); 
+        width:100%;
+       
+}
+   
+.cen-hed-div{
+    width:auto;
+}
+
+}
+@media only screen and ( min-width:768px )and (max-width:1200px){
+
+
+    .fivdiv{
+        position:relative;
+        left:0%;
+        margin:10px 25px;
+        background:linear-gradient(to right,rgb(219, 219, 219) ,white); 
+        width:100%;
+        padding:2px;
+
+       
+}
+   
+
+}
+@media screen and (min-width:1300px){
+    .fivdiv{
+        width:50%;
+        position:absolute;
+        left:50%;
+        margin-left: -25%;
+        padding:2px;
+        background: linear-gradient(to right,rgb(219, 219, 219) ,white);
+        
+        margin-top:320px; 
+        z-index:100px;
+    }
+
+}
+
